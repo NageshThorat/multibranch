@@ -12,7 +12,7 @@ pipeline {
             steps { 
                sh 'echo "This is Sprint1 branch.. this is dev changeis"'
             }
-        }i
+        }
 
         stage("hotfix") { 
              steps { 
