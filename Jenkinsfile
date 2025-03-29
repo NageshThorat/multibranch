@@ -1,4 +1,4 @@
-iipipeline {   
+pipeline {   
     agent any
 
     stages {   
@@ -10,13 +10,13 @@ iipipeline {
      
         stage('dev1') { 
             steps { 
-               sh 'echo "This is Sprint1 branch.. this is dev changes"'
+               sh 'echo "This is Sprint1 branch.. this is dev changeis"'
             }
         }i
 
         stage("hotfix") { 
              steps { 
-                sh 'echo "This is hotfix branch"i'
+                sh 'echo "This is hotfix branch"'
             }
         }  
     }
