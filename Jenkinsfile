@@ -10,13 +10,13 @@ iipipeline {
      
         stage('dev1') { 
             steps { 
-               sh 'echo "This is Sprint1 branch.."'
+               sh 'echo "This is Sprint1 branch.. this is dev changes"'
             }
-        }
+        }i
 
         stage("hotfix") { 
              steps { 
-                sh 'echo "This is hotfix branch"'
+                sh 'echo "This is hotfix branch"i'
             }
         }  
     }
